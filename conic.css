@@ -1,0 +1,8 @@
+#grad1 {
+    height: 200px;
+    width: 200px;
+    /* background-color: red; */
+    background-image: conic-gradient(red, yellow, green);
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);   /*conic gradient with a degree for each color*/
+    background-image: conic-gradient(red, yellow, green, blue, black);
+  }
